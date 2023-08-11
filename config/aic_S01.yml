@@ -1,0 +1,12 @@
+CHALLENGE_DATA_DIR: '/aic/code/AICITY2022_Track1_TAG/datasets/AIC22_Track1_MTMC_Tracking/'
+DET_SOURCE_DIR: '/aic/code/AICITY2022_Track1_TAG/datasets/detection/images/train/S01/'
+DATA_DIR: '/aic/code/AICITY2022_Track1_TAG/datasets/train/detect/'
+REID_SIZE_TEST: [384, 384]
+ROI_DIR: '/aic/code/AICITY2022_Track1_TAG/datasets/AIC22_Track1_MTMC_Tracking/train/S01/'
+CID_BIAS_DIR: '/aic/code/AICITY2022_Track1_TAG/datasets/AIC22_Track1_MTMC_Tracking/cam_timestamp/'
+USE_ZONE: False
+USE_RERANK: True
+USE_FF: True
+SCORE_THR: 0.1
+MCMT_OUTPUT_TXT: 'track_S01.txt'
+MCMT_Interpo_OUTPUT_TXT: 'track_S01_interpolation.txt'

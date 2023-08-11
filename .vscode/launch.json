@@ -1,0 +1,56 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "interpolation",
+            "type": "python",
+            "request": "launch",
+            "program": "interpolation.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/reid_bidir/reid-matching/tools",
+            "args": [
+                "aic_S01.yml"
+            ]
+        },
+        {
+            "name": "merge_reid_feat_dxg",
+            "type": "python",
+            "request": "launch",
+            "program": "merge_reid_feat_dxg.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/reid_bidir/",
+            "args": [
+                "aic_S01.yml"
+            ]
+        },
+        {
+            "name": "extract_image_feat",
+            "type": "python",
+            "request": "launch",
+            "program": "extract_image_feat.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/reid_bidir",
+            "args": [
+                "aic_reid1_S01.yml"
+            ]
+        },
+        {
+            "name": "trajectory_fusion_dxg",
+            "type": "python",
+            "request": "launch",
+            "program": "trajectory_fusion_dxg.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/reid_bidir/reid-matching/tools",
+            "args": [
+                "aic.yml"
+            ]
+        }
+    ]
+}
